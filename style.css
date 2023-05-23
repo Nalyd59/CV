@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+header{
+    border: solid 2px black;
+    margin: 10px;
+    background-color: white;
+}
+nav{
+    width: 100%;
+    background-color: orange;
+    padding: 10px;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+nav li{
+    list-style-type: none;
+    float: left;
+    margin: 5px;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+.presentation{
+    border: solid 1px black;
+    margin: 10px;
+    background-color: white;
+}
+.formations{
+    border: solid 1px black;
+    margin: 10px;
+    background-color: white;
+}
+.experiences{
+    border: solid 1px black;
+    margin: 10px;
+    background-color: white;
+}
+.projets{
+    border: solid 1px black;
+    margin: 10px;
+    background-color: white;
+}
+.contact{
+    border: solid 1px black;
+    margin: 10px;
+    background-color: white;
+}
