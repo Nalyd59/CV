@@ -163,9 +163,11 @@ a {
   display: flow-root;
 }
 .mainDetails {
-  padding: 25px 35px 5px;
+  padding: 25px 35px 0px;
   border-bottom: 2px solid #cf8a05;
   background: #f3f3f3;
+  display: flex;
+  flex-direction: column;
 }
 
 .bioDetails {
@@ -227,6 +229,7 @@ a {
 
 #name {
   float: left;
+  margin-bottom: 1em;
 }
 
 section {
@@ -347,6 +350,7 @@ section:last-child {
     float: none;
     width: 100%;
     text-align: center;
+
   }
 
   .title,
@@ -369,7 +373,7 @@ section:last-child {
 
 @media all and (max-width: 480px) {
   .mainDetails {
-    padding: 15px 15px;
+    padding: 15px 15px 0px;
   }
 
   section {
@@ -391,6 +395,9 @@ section:last-child {
     line-height: 1em;
     margin-bottom: 4px;
   }
+  #nav ul li a{
+    font-size: small;
+  }
 }
 
 .keySkills li p{
@@ -411,3 +418,20 @@ footer p {
 text-align: center;
 }
 
+#nav ul{
+  background-color: #cf8a05;
+  display: flex;
+  list-style: none;
+  padding: 0.5em;
+  justify-content: space-around;
+  border-radius: 10px 10px 0px 0px;
+}
+#nav ul li{
+  color: #f3f3f3;
+}
+#nav nav ul li a{
+  text-decoration: none;
+}
+.top{
+  margin-bottom: 1em;
+}
