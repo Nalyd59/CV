@@ -25,11 +25,3 @@ checkbox.addEventListener("click", function () {
     li.classList.toggle("bg-white");
   });
 });
-
-// function change() {
-//   if (document.formulaire.row3_box.checked == true) {
-//     document.body.style.backgroundColor = "#000";
-//   } else {
-//     document.body.style.backgroundColor = "silver";
-//   }
-// }
