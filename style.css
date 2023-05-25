@@ -124,13 +124,6 @@ article {
 form div{
     margin: 10px;
 }
-#menu {
-  position: fixed;
-  right: 0;
-  top: 15%;
-  width: 8em;
-  margin-top: -2.5em;
-}
 
 p {
   font-size: 1em;
@@ -145,10 +138,6 @@ p {
 
 a {
   color: inherit;
-}
-
-i {
-  margin-right: 10px;
 }
 
 .cv {
@@ -205,18 +194,6 @@ i {
   padding: 0 40px;
 }
 
-.phone {
-  float: left;
-}
-
-.address {
-  float: right;
-}
-
-.contactIcon {
-  float: left;
-}
-
 .contactInfo {
   float: left;
   list-style-type: none;
@@ -224,10 +201,6 @@ i {
 
 .contactInfo li {
   margin : 0.5em 0 0.5em 0;
-}
-
-.item {
-  height: 2em;
 }
 
 .breakFastBurrito {
@@ -254,37 +227,6 @@ i {
 
 #name {
   float: left;
-}
-
-#contactDetails {
-  float: right;
-}
-
-#contactDetails ul {
-  list-style-type: none;
-  font-size: 0.9em;
-  margin-top: 2px;
-}
-
-#contactDetails ul li {
-  margin-bottom: 3px;
-  color: #444;
-  display: inline;
-}
-
-#contactDetails ul li a,
-a[href^="tel"] {
-  color: #444;
-  text-decoration: none;
-  -webkit-transition: all 0.3s ease-in;
-  -moz-transition: all 0.3s ease-in;
-  -o-transition: all 0.3s ease-in;
-  -ms-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
-}
-
-#contactDetails ul li a:hover {
-  color: #cf8a05;
 }
 
 section {
@@ -351,11 +293,6 @@ section:last-child {
     float: right;
   }
 
-  .phone,
-  .address {
-    width: 100%;
-  }
-
   #mainArea {
     padding: 0 20px;
     width: 66%;
@@ -406,8 +343,7 @@ section:last-child {
     display: none;
   }
 
-  #name,
-  #contactDetails {
+  #name {
     float: none;
     width: 100%;
     text-align: center;
@@ -434,11 +370,6 @@ section:last-child {
 @media all and (max-width: 480px) {
   .mainDetails {
     padding: 15px 15px;
-  }
-
-  .phone,
-  .address {
-    width: 100%;
   }
 
   section {
