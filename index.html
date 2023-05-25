@@ -1,96 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>CV Crepin Dylan</title>
-</head>
-<body>
-    <header>
-        <img src="" alt="">
-        <h1>CREPIN Dylan</h1>
-        <p>Actuellement en formation développement web et web mobile, je suis à la recherche d'un stage du 27/09/23 au 20/12/23 qui pourrait améliorer et mettre en valeurs mes compétences dans le domaine tout en respectant les demandes attendues.</p>
-    </header>
-    <nav>
-        <ul>
-            <li><a href=""></a>Presentation</li>
-            <li><a href=""></a>Formations</li>
-            <li><a href=""></a>Experiences</li>
-            <li><a href=""></a>Projets</li>
-            <li><a href=""></a>Contact</li>
-        </ul>
-    </nav>
-    <div class="presentation">
-        <h2>Présentation</h2>
-        <p>
-            Hello ! Je m’appelle CREPIN Dylan, après une première année en DUT GEII, j'ai decidé de me reorienté dans une formation qui correspond a mes objectifs. La formation chez AFCI Formation m’a permis d’acquérir de très bonnes compétences telles que l’organisation, l’écoute, le conseil ainsi que des qualités relationnelles importantes.
-            En pleine reconversion professionnelle dans le web, domaine qui m’intéressait depuis de nombreuses années, j’ai donc suivi la formation Développeur web et web mobile.
-            Je suis un passionné de programation, et de tout l'univers du web, j'ai pour ambitions de devenir developpeur fullstack.
-        </p>
-    </div>
+  </head>
+  <body>
+    <div id="drag" class="cv instaFade breakFastBurrito">
+      <div class="mainDetails">
+        <div id="headshot" class="quickFade">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/6/63/Icon_Bird_512x512.png"
+            title="C'est moi !"
+            alt="Dylan CREPIN"
+          />
+        </div>
 
-    <div class="formations">
-        <h2>Formations</h2>
-        <ul>
-            <li>AFCI formation : TP developpeur web et web mobile ( 05/2023 au 01/2024 )</li>
-            <li>3wAcademy : Integrateur / Developpeur web ( 09/2019 au 12/2019 )</li>
-            <li>IUT A Lille 1 : DUT génie électrique et informatique industriel ( 09/2017 au 06/2018 )</li>
-            <li>Emile Zola Wattrelos : BAC S spécialité Maths ( 06/2016 )</li>
-        </ul>
-    </div>
+        <div id="name">
+          <h1 class="quickFade delayTwo">CREPIN Dylan</h1>
+          <div class="bioDetails">
+            <div style="float: left">1 Aout, 1997</div>
+            <div style="float: right">Lille, France</div>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
 
-    <div class="experiences">
-        <h2>Experiences</h2>
-        <ul>
-            <li>DEJBOX : Preparateur de commandes / Livreur</li>
-            <li>POPPIES : Emballeur</li>
-            <li>SUSHIBOUTIK : Livreur / aide en cuisine</li>
-            <li>SEDIS LOGISTICS : Manutentionnaire</li>
-            <li>AFIBEL : Manutentionnaire </li>
-        </ul>
-    </div>
+      <div class="primaryContent">
+        <input id="myCheck" type="checkbox" />
 
-    <div class="projets">
-        <h2>Projets</h2>
-        
-    </div>
-    <div class="contact">
-        <h2>Contact</h2>
-        <form action="" method="POST">
-            <div>
-                <label for="nom">Votre nom</label>
-                <input type="text" id="nom" name="nom" placeholder="Crepin" required>
+        <div id="personalArea" class="quickFade delayFour">
+          <section>
+            <div class="title">
+              <h2>Contact</h2>
             </div>
-            <div>
-                <label for="prenom">Votre prenom</label>
-                <input type="text" id="prenom" name="prenom" placeholder="Dylan" required>
+
+            <div class="sectionContent">
+              <ul class="contactInfo">
+                <li>+33 7 79 49 55 74</li>
+                <li>dy.crepin@gmail.com</li>
+              </ul>
             </div>
-            <div>
-                <label for="email">Votre e-mail</label>
-                <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+          </section>
+
+          <div class="clear"></div>
+        </div>
+
+        <div id="mainArea" class="quickFade delayFive">
+          <section id="Profile">
+            <article>
+              <div class="title">
+                <h2>Présentation</h2>
+              </div>
+
+              <div class="sectionContent">
+                <p>
+                  Hello ! Je m’appelle CREPIN Dylan, après une première année en
+                  DUT GEII, j'ai decidé de me reorienté dans une formation qui
+                  correspond a mes objectifs. La formation chez AFCI Formation
+                  m’a permis d’acquérir de très bonnes compétences telles que
+                  l’organisation, l’écoute, le conseil ainsi que des qualités
+                  relationnelles importantes. En pleine reconversion
+                  professionnelle dans le web, domaine qui m’intéressait depuis
+                  de nombreuses années, j’ai donc suivi la formation Développeur
+                  web et web mobile. Je suis un passionné de programation, et de
+                  tout l'univers du web, j'ai pour ambitions de devenir
+                  developpeur fullstack.
+                </p>
+              </div>
+            </article>
+            <div class="clear"></div>
+          </section>
+
+          <section id="Formations">
+            <div class="title">
+              <h2>Formations</h2>
             </div>
-            <div>
-                <label for="sujet">Quel est le sujet de votre message ?</label>
-                <select name="sujet" id="sujet" required>
-                    <option value="1">option1</option>
-                    <option value="2">option2</option>
-                    <option value="3">option3</option>
-                    <option value="4">option4</option>
-                </select>
+            <div class="sectionContent">
+              <article>
+                <h3>TP developpeur web et web mobile</h3>
+                <h4>AFCI formation</h4>
+                <p class="subDetails">Mai 2023</p>
+              </article>
+
+              <article>
+                <h3>Integrateur / Developpeur web</h3>
+                <h4>3w Academy</h4>
+                <p class="subDetails">Septembre 2019</p>
+              </article>
+
+              <article>
+                <h3>DUT génie électrique et informatique industriel</h3>
+                <h4>IUT A Lille 1</h4>
+                <p class="subDetails">Septembre 2017</p>
+              </article>
+
+              <article>
+                <h3>BAC S spécialité Maths</h3>
+                <h4>Emile Zola Wattrelos</h4>
+                <p class="subDetails">Juin 2016</p>
+              </article>
             </div>
-            <div>
-                <label for="message">Votre message</label>
-                <textarea id="message" name="message" required></textarea>
+            <div class="clear"></div>
+          </section>
+
+          <section id="Education">
+            <div class="title">
+              <h2>Expériences</h2>
             </div>
-            <div>
-                <button type="submit">Envoyer mon message</button>
+            <div class="sectionContent">
+              <article>
+                <h3>Manutentionnaire</h3>
+                <h4>SEDIS LOGISTICS</h4>
+                <p class="subDetails">Octobre 2021 - Juillet 2022</p>
+              </article>
+
+              <article>
+                <h3>Emballeur</h3>
+                <h4>POPPIES</h4>
+                <p class="subDetails">Aout 2021 - Septembre 2021</p>
+              </article>
+
+              <article>
+                <h3>Livreur</h3>
+                <h4>SUSHIBOUTIK</h4>
+                <p class="subDetails">Avril 2019 - Mars 2023</p>
+              </article>
+
+              <article>
+                <h3>Preparateur de commandes</h3>
+                <h4>DEJBOX</h4>
+                <p class="subDetails">Fevrier 2019 - Avril 2019</p>
+              </article>
             </div>
-        </form>
+            <div class="clear"></div>
+          </section>
+
+          <section>
+            <div class="title">
+              <h2>Key Skills</h2>
+            </div>
+
+            <div class="sectionContent">
+              <ul class="keySkills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>PHP</li>
+              </ul>
+            </div>
+            <div class="clear"></div>
+          </section>
+
+          <!-- <section>
+            <article>
+              <div class="title">
+                <h2>Formulaire</h2>
+              </div>
+
+              <div class="sectionContent">
+                 <form action="" method="POST">
+                  <div>
+                    <label for="nom">Votre nom</label>
+                    <input
+                      type="text"
+                      id="nom"
+                      name="nom"
+                      placeholder="Crepin"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label for="prenom">Votre prenom</label>
+                    <input
+                      type="text"
+                      id="prenom"
+                      name="prenom"
+                      placeholder="Dylan"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label for="email">Votre e-mail</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="monadresse@mail.com"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label for="sujet"
+                      >Quel est le sujet de votre message ?</label
+                    >
+                    <select name="sujet" id="sujet" required>
+                      <option value="1">option1</option>
+                      <option value="2">option2</option>
+                      <option value="3">option3</option>
+                      <option value="4">option4</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label for="message">Votre message</label>
+                    <textarea id="message" name="message" required></textarea>
+                  </div>
+                  <div>
+                    <button type="submit">Envoyer mon message</button>
+                  </div>
+                </form> 
+              </div>
+            </article>
+            <div class="clear"></div>
+          </section> -->
+        </div>
+      </div>
     </div>
     <footer>
-        <p>tous droits reserves</p>
+      <p>© COPYRIGHT 2023 - Tous Droits Réservés</p>
     </footer>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
